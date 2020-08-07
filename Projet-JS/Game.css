@@ -1,0 +1,71 @@
+/*PAGE INDEX.HTML BODY*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.Home{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/game.jpg);
+    font-family: "century Gothic";color: #fff;background-attachment: fixed;background-position: center;background-size: cover;}
+h1{letter-spacing: 1px;font-size: 70px;text-align: center;padding: 0px;margin-top: 10px; text-decoration: underline;color: #ff9900;}
+section{margin: 150px;margin-top: 50px;margin-bottom: 20px; padding: 10px;}
+.flot1{float: left;width: 200px;height: 150px;margin: 20px;}
+.flot2{float: right;width: 200px;height: 150px;margin: 20px;}
+h2{text-decoration: underline;text-align: center;color: #ff9900;}
+p{letter-spacing: 1px;font-size: 20px;color: white;}
+section input{padding: 3px;border-width: 2px;border-style: solid;width: 200px;border-radius: 6px}
+section input[type="submit"]{background-color: rgb(255, 0, 0);width: 150px;height: 40px;margin-left: 5px;margin-top: 40px;box-shadow: 1px 1px #000;cursor: pointer;}
+section input[value="Jouer"]{font-size: 20px;color: white;}
+section input:hover[type="submit"]{background-color: white;width: 150px;height: 40px;margin-left: 5px;margin-top: 40px;box-shadow: 1px 1px #000;cursor: pointer;}
+section input:hover[value="Jouer"]{font-size: 20px;color: rgb(255, 0, 0);}
+.button1{width: 140px;height: 100px;margin-left: 350px;}
+.button2{float: right;margin-right: 350px;}
+
+/*PAGE INDEX.HTML FOOTER*/
+footer{width: 100%;display: block;background-color: #00121b;}
+.inner-footer{width: 95%;margin: auto;padding: 30px 10px;display: flex;box-sizing: border-box;justify-content: center;}
+.footer-items{width: 25%;padding: 10px 20px;box-sizing: border-box;}
+h2{padding: 10px 0;font-size: 25px;color: #ff9900;text-transform: uppercase;}
+.footer-items p{color: grey;font-size: 16px;text-align: justify;line-height: 25px;}
+.footer h2{margin: 10px 0;color: grey;font-size: 16px;font-weight: lighter;text-transform: uppercase;}
+.border{height: 2px;width: 40px;background-color: #ff9900;}
+ul{list-style: none;color: #fff;font-size: 15px;letter-spacing: 0.5px;}
+ul a{text-decoration: none;outline: none;color: #fff;transition: 0.3s;}
+ul a:hover{color: #ff9800;}
+ul li{margin: 10px 0;height: 25px;}
+li i{margin-right: 20px;}
+.bonjour{width: 100%;color: #fff;text-align: center;}
+.bonjour a{text-decoration: none;}
+.bonjour i{height: 15px;width: 15px;margin: 20px 5px;padding: 10px;color: #fff;border-radius: 50%;border: 3px solid grey;transition: 0.3s;}
+.bonjour i:hover{background: grey;}
+.footer-bottom{background-color:#000 ;}
+
+
+/*PAGE GAME.HTML BODY*/
+.Game{background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/roulette.jpg);
+    font-family: "century Gothic";color: #fff;background-attachment: fixed;background-position: center;background-size: cover;}
+.logo{margin-top: 20px;}
+.image{width: 100px;padding: 0px;float: left;}
+/*PAGE INDEX.HTML ROULETTE*/
+.bannier{background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image/casino.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    display: inline-block;
+}
+.roulette{float: left;margin: 30px; padding: 20px;}
+.gain{float: right;margin: 30px; padding: 20px;}
+select{padding-top: 5px; padding-bottom: 5px;font-size: 14px;}
+.odd{background: white;font-family: 'Courier New', Courier, monospace;}
+.odd:hover{background: rgb(50, 165, 44);font-family: 'Courier New', Courier, monospace;}
+#Go{font-size: 2em;left: 48%; right: 50%;background-color: rgb(50, 165, 44);border-radius: 15%;margin-bottom: 10px;}
+#Go:hover{font-size: 2em;left: 48%; right: 50%;background-color: white;border-radius: 15%;box-shadow: black 1px 1px 1px;}
+#Go,#gain,#perte,#number,select{border: none;padding: 4px 7px;border-radius: 5px;box-sizing: border-box;transition: ease 1s;}
+#N0{width: 70px; height: 70px;}
+:disabled{color: #ff0000;}
